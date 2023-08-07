@@ -332,6 +332,7 @@ public class SwiftLiveActivitiesPlugin: NSObject, FlutterPlugin, FlutterStreamHa
     
     public struct ContentState: Codable, Hashable {
       var appGroupId: String
+      let progress: Double?
     }
     
     var id = UUID()
